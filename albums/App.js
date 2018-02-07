@@ -1,8 +1,8 @@
 // Import library to help create a component
 import React, { Component } from 'react';
-import { ScrollView, StyleSheet } from 'react-native';
+import { View, ScrollView, StyleSheet } from 'react-native';
 import Header from './src/components/Header/Header';
-import Content from './src/components/Content/Content';
+import AlbumList from './src/components/AlbumList/AlbumList';
 
 
 // Create a component (in this case import a component)
@@ -11,10 +11,15 @@ import Content from './src/components/Content/Content';
 export default class App extends Component<{}> {
   render() {
     return (
-        <ScrollView style={styles.mainContainer}>
-          <Header title='My Albums!' />
-          <Content />
-        </ScrollView>
+        <View style={styles.mainContainer}>
+          <Header
+            title='My Albums!'
+            subtitle='An applications for your favorites albums!'
+          />
+          <ScrollView style={styles.listContainer}>
+            <AlbumList />
+          </ScrollView>
+        </View>
     );
   }
 }
@@ -25,7 +30,12 @@ const styles = StyleSheet.create({
     paddingTop: 20,
     paddingBottom: 10,
     paddingHorizontal: 10,
-    backgroundColor: '#f5f5f5',
+    backgroundColor: '#f5f5f5'
+  },
+  listContainer: {
+    flex: 0.8,
     flexDirection: 'column',
+    padding: 5,
+    marginTop: 15,
   }
 });

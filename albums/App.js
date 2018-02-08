@@ -14,7 +14,7 @@ export default class App extends Component<{}> {
         <View style={styles.mainContainer}>
           <Header
             title='My Albums!'
-            subtitle='An applications for your favorites albums!'
+            subtitle='Filter: Taylor Swift'
           />
           <ScrollView style={styles.listContainer}>
             <AlbumList />
@@ -29,13 +29,13 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingTop: 20,
     paddingBottom: 10,
-    paddingHorizontal: 10,
+    paddingHorizontal: 5,
     backgroundColor: '#f5f5f5'
   },
   listContainer: {
     flex: 0.8,
     flexDirection: 'column',
-    padding: 5,
+    padding: 1,
     marginTop: 15,
   }
 });

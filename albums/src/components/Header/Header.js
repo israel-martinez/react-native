@@ -32,12 +32,12 @@ const styles = StyleSheet.create({
     position: 'relative',
   },
   text_title: {
-    fontSize: 30,
+    fontSize: 28,
     textAlign: 'center',
     marginBottom: 10,
   },
   text_subtitle: {
-    fontSize: 20,
+    fontSize: 16,
     textAlign: 'center',
     margin: 5,
   },

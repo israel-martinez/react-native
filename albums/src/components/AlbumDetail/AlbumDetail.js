@@ -5,6 +5,7 @@ import CardSection from '../CardSection/CardSection';
 import Button from '../Button/Button';
 
 class AlbumDetail extends Component {
+
   render() {
     return (
       <Card>

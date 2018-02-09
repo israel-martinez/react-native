@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Image, Linking, StyleSheet, Text, View } from 'react-native';
-import Card from '../Card/Card';
-import CardSection from '../CardSection/CardSection';
-import Button from '../Button/Button';
+import Card from '../Card';
+import CardSection from '../CardSection';
+import Button from '../Button';
 
 class AlbumDetail extends Component {
 

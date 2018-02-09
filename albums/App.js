@@ -1,8 +1,8 @@
 // Import library to help create a component
 import React, { Component } from 'react';
 import { View, ScrollView, StyleSheet } from 'react-native';
-import Header from './src/components/Header/Header';
-import AlbumList from './src/components/AlbumList/AlbumList';
+import Header from './src/components/Header';
+import AlbumList from './src/components/AlbumList';
 
 
 // Create a component (in this case import a component)

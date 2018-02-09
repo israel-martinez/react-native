@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 10 },
     shadowOpacity: 0.2,
-    elevation: 2,
+    elevation: 10,
     position: 'relative',
   },
   text_title: {
